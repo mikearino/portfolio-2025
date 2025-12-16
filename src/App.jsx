@@ -1,8 +1,19 @@
+import About from "./components/sections/About"
+import Contact from "./components/sections/Contact"
+import Hero from "./components/sections/Hero"
+import Projects from "./components/sections/Projects"
 
 function App() {
 
   return (
-    <h1>Hello</h1>
+    <main>
+      <Hero />
+      <Projects />
+      <About />
+      <Contact/>
+    </main>
+    
+
   )
     
   
