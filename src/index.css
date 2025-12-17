@@ -13,5 +13,19 @@ main {
 }
 
 section {
-  margin-bottom: 4rem;
+  padding: 4rem 1.5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section > h2 {
+  margin-bottom: 2rem;
+}
+
+section article h3 {
+  margin-bottom: .75rem;
+}
+
+section article p {
+  margin-bottom: 1rem;
 }
