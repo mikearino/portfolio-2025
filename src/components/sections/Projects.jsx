@@ -21,11 +21,11 @@ const Projects = () => {
             <article>
             <h3>AWS Backed Blog Platform</h3>
               <p>
-                Deployed and operated a WordPress blog on AWS to gain hands on experience with cloud infrastructure and backend ownership. Provisioned a WordPress instance using AWS Lightsail, configured a static public IP, managed DNS through Route 53, and enabled HTTPS for secure access. This project demonstrates end-to-end ownership of a production service, including deployment, networking, DNS configuration and basic operational maintenance.
+                Deployed and operated a blog on AWS to gain hands-on experience with cloud infrastructure and backend ownership. Provisioned a WordPress instance using AWS Lightsail, configured a static public IP, managed DNS through Route 53 and enabled HTTPS for secure access. This project demonstrates end-to-end ownership of a production service, including deployment, networking, DNS configuration and basic operational maintenance.
               </p>
                 <ul>
                   <li>
-                    Live Site: <a href="https://ithinkitsworking.com">https://ithinkitsworking.com</a>
+                    <a href="https://ithinkitsworking.com">View live site</a>
                   </li>
                 </ul>
             </article>
