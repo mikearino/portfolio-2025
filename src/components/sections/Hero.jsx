@@ -5,7 +5,10 @@ const Hero = () => {
     <section>
       <h1>Hi I'm Mike.</h1>
       <p>
-        I’m a software engineer who builds practical web applications and internal tools.
+        I turn real-world problems into working software.
+      </p>
+      <p className="skills">
+        React, Python, AWS (S3, CloudFront, Route 53), REST APIs
       </p>
     </section>
   )

@@ -6,14 +6,18 @@ import Projects from "./components/sections/Projects"
 function App() {
 
   return (
-    <main>
-      <Hero />
-      <Projects />
-      <About />
-      <Contact/>
-    </main>
-    
-
+    <>
+      <main>
+        <Hero />
+        <Projects />
+        <About />
+        <Contact/>
+      </main>
+      
+      <footer>
+        <p>Built with Vite, deployed on AWS (S3 + CloudFront).</p>
+      </footer>
+    </>
   )
     
   

@@ -5,9 +5,7 @@ const About = () => {
     <section>
       <h2>About Me</h2>
       <p>
-        I’m a software engineer focused on solving real-world problems through
-        practical applications and internal tools. I enjoy learning systems by
-        building with them and taking ownership from idea to deployment.
+       I’m a software engineer who builds practical applications and internal tools. I care about clear solutions, thoughtful implementation and shipping things that are useful in the real world.
       </p>
     </section>
   )

@@ -36,10 +36,10 @@ const Projects = () => {
                 </p>
                 <ul>
                   <li>
-                    Tech: Phaser.js
+                    <strong>Tech:</strong> Phaser.js
                   </li>
                   <li>
-                    Status: In progress
+                    <strong>Status:</strong> In progress
                   </li> 
                   <li>
                     Github Repository: <a href="https://github.com/mikearino/tubeChaos">https://github.com/mikearino/tubeChaos</a>
