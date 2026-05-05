@@ -4,18 +4,54 @@ const Projects = () => {
   return (
     <section>
       <h2>Projects</h2>
+      <p>
+        Selected projects demonstrating full stack development and cloud
+        deployment.
+      </p>
+      <article>
+        <h3>River Chaos</h3>
+        <p>
+          A full-stack browser game where players navigate obstacles and compete
+          for high scores. Built with a custom backend API and deployed on AWS
+          (S3, CloudFront, Elastic Beanstalk, RDS) to persist runs and power a
+          global leaderboard.
+        </p>
+        <ul>
+          <li>
+            <strong>Status:</strong> Live
+          </li>
+          <li>
+            <strong>
+              <a
+                href="https://d1vskmi94pi261.cloudfront.net"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Play Now
+              </a>
+            </strong>
+          </li>
+          <li>
+            <strong>
+              <a
+                href="https://github.com/mikearino/tubeChaos"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                View Source
+              </a>
+            </strong>
+          </li>
+        </ul>
+      </article>
       <article>
         <h3>
           Zendesk Internal Tools (Admin Enforcement & Requester Reassignment)
         </h3>
         <p>
-          Zendesk does not natively support swapping CC’d users into the
-          requester role or enforcing admin inclusion based on organization
-          domains. I built Zendesk apps that automatically enforce admin
-          inclusion for tickets from specific domains and allow agents to
-          reassign the requester via a menu selector when needed. This reduces
-          manual ticket edits, eliminates copy/paste workflows and ensures
-          admins are consistently included without agent friction.
+          Built internal Zendesk apps to automate admin enforcement and
+          requester reassignment. These tools reduce manual ticket edits and
+          improve consistency for support workflows.
         </p>
         <ul>
           <li>
@@ -33,44 +69,14 @@ const Projects = () => {
       <article>
         <h3>AWS Backed Blog Platform</h3>
         <p>
-          Deployed and operated a blog on AWS to gain hands on experience with
-          cloud infrastructure and backend ownership. Provisioned a WordPress
-          instance using AWS Lightsail, configured a static public IP, managed
-          DNS through Route 53 and enabled HTTPS for secure access. This project
-          demonstrates end-to-end ownership of a production service, including
-          deployment, networking, DNS configuration and basic operational
-          maintenance.
+          Deployed and operated a WordPress blog on AWS Lightsail. Configured
+          DNS with Route 53, set up HTTPS, and managed a static IP. This project
+          demonstrates hands-on experience with cloud infrastructure and basic
+          production operations.
         </p>
         <ul>
           <li>
             <a href="https://ithinkitsworking.com">View live site</a>
-          </li>
-        </ul>
-      </article>
-      <article>
-        <h3>Tube Chaos</h3>
-        <p>
-          A browser game built with Phaser.js where the player inner tubes down
-          a river while avoiding rocks and obstacles. The project focuses on
-          core game mechanics such as movement physics, collision detection,
-          obstacle spawning and game state management. This is an actively
-          developed project used to explore realtime gameplay loops and
-          interactive systems.
-        </p>
-        <ul>
-          <li>
-            <strong>Status:</strong> In progress
-          </li>
-          <li>
-            <strong>
-              <a href="https://d1vskmi94pi261.cloudfront.net">Play Now</a>
-            </strong>
-          </li>
-          <li>
-            Github Repository:{" "}
-            <a href="https://github.com/mikearino/tubeChaos">
-              https://github.com/mikearino/tubeChaos
-            </a>
           </li>
         </ul>
       </article>
